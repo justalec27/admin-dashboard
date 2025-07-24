@@ -2,3 +2,17 @@ html, body {
    margin: 0;
     font-family: "Roboto", sans-serif;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    background-color: blue;
+}
+
+
+.rightside {
+    background-color: aquamarine;
+}
