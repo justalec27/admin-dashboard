@@ -27,6 +27,7 @@ html, body {
     color: white;
     font-weight: bold;
     font-size: 18px;
+    margin-top: -40px;
 }
 
 .top {
@@ -35,7 +36,7 @@ html, body {
     align-items: center;
     color: white;
     padding-left: 15px;
-    margin-top: -20px;
+
 }
 
 h1 {
@@ -268,6 +269,9 @@ h1 {
 .projects {
     display: grid;
     grid-template-rows: 1fr 10fr;
+    margin-top: -20px;
+    margin-left: 10px;
+    height: 400px;
 }
 
 .projects-container {
@@ -276,7 +280,6 @@ h1 {
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
     height: 700px;
     gap: 5px
 }
@@ -361,6 +364,7 @@ h1 {
     border-radius: 15px;
     width: 300px;
     justify-content: center;
+    ;
 }
 
 .trending-card img{
@@ -377,7 +381,34 @@ h1 {
     margin-left: 25px;
 }
 
-.item1 .wrapper{
+.trending-card .item2 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.trending-card .item3 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+     margin-top: 10px;
+}
+
+.trending-card .item4 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+     margin-top: 10px;
+}
+
+.item1 .wrapper,.item2 .wrapper, .item3 .wrapper, .item4 .wrapper {
     line-height: 6px;
 }
 
