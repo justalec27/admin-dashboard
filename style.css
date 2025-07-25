@@ -13,7 +13,7 @@ html, body {
     grid-template-columns: 1fr 4fr;
     height: 100vh;
 }
-
+/*  css for side bar */
 .rightside {
     background-color: #E2E8F0;
     display: grid;
@@ -40,8 +40,8 @@ html, body {
 
 h1 {
     font-size: 24px;
-
 }
+
 .top svg {
     fill: white;
     height: 60px;
@@ -100,21 +100,6 @@ h1 {
     gap: 15px;;
 }
 
-
-.navigation-left {
-   display: grid;
-   grid-template-rows: repeat(6, 1fr);
-   padding-top: 13px;
-}
-
-.navigation-right {
-    display: grid;
-    grid-template-rows: repeat(6, 1fr);
-    margin-left: 20px;
-    font-size: 20px;
-}
-
-
 .operation {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -151,41 +136,8 @@ h1 {
     grid-template-columns: 1fr 5fr;
     gap: 15px;
 }
-.operation-left {
-   display: grid;
-   grid-template-rows: repeat(6, 1fr);
-   padding-top: 13px;
-}
 
-.operation-right {
-    display: grid;
-    grid-template-rows: repeat(6, 1fr);
-    font-size: 20px;
-    margin-left: -10px;
-}
-
-.operation-right support {
-    height: 30px;
-
-}
-
-.operation-right .support {
-    margin-top: -50px;
-}
-
-.operation-right .privacy {
-    margin-top: -100px;
-}
-
-
-.operation-left .support {
-    margin-top: -50px;
-}
-
-.operation-left .privacy {
-    margin-top: -100px;
-}
-
+/* css for top bar */
 .topbar {
     background-color: white;
     display: grid;
@@ -304,4 +256,82 @@ h1 {
     color: white;
     font-weight: bold;
     font-size: 18px;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin-top: -50px;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    height: 700px;
+    gap: 5px
+}
+
+.card {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    border-left: 7px solid #F0B42A;
+
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    justify-content: center;
+    margin-top: -40px;
+    height: 400px;
+    
+}
+
+.announcements h4 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.announcements-card{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    padding: 5px;
+    padding-top: 15px;
+    border-radius: 15px;
+    width: 300px;
+    margin-top: -15px;
+    justify-content: center;
+
+}
+
+.announcements-card div {
+    width: 275px;
+}
+
+.announcements-card .title {
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.announcements-card .para {
+    font-size: 14px;
+    color: grey;
+}
+
+
+.announcements-card .item1, .announcements-card .item2 {
+    border-bottom: 1px solid grey;
 }
