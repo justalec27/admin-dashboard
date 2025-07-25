@@ -290,6 +290,11 @@ h1 {
 
 }
 
+.right-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
 .announcements {
     display: grid;
     grid-template-rows: 1fr 5fr;
@@ -334,4 +339,48 @@ h1 {
 
 .announcements-card .item1, .announcements-card .item2 {
     border-bottom: 1px solid grey;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    margin-top: -200px;
+    height: 400px;
+    padding-left: 30px;
+}
+
+.trending h4 {
+    font-size: 20px;
+}
+
+.trending-card {
+    margin-top: -15px;
+    background-color: white;
+    padding: 5px;
+    padding-top: 15px;
+    border-radius: 15px;
+    width: 300px;
+    justify-content: center;
+}
+
+.trending-card img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.trending-card .item1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.item1 .wrapper{
+    line-height: 6px;
+}
+
+.wrapper .para {
+    color: grey;
 }
